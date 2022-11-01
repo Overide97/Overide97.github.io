@@ -3,7 +3,8 @@
 }
 
 .header {
-    background-color: lightblue;
+    background-color: black;
+    color: antiquewhite;
     text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -67,7 +68,8 @@ img {
 .top-header {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: aquamarine;
+    background-color: black;
+    color: antiquewhite;
 }
 
 .foot {
