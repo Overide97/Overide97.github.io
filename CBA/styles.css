@@ -1,0 +1,100 @@
+* {
+    font-family:'Times New Roman', Times, serif
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.headofpage {
+    text-align: center;
+}
+
+.DCS {
+    font-weight:bold;
+}
+
+.VDF {
+    font-weight: bold;
+}
+
+@media print {
+    h2 {page-break-before: always;}
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    empty-cells: show;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+
+.sub {
+    font-size: 10px;
+}
+
+.dr {
+    display: block;
+    width: 300px;
+}
+
+.dro {
+    display: flex;
+}
+
+
+
+  .v {
+    display: block;
+  }
+
+  .vsub {
+    font-size: 10px;
+    margin-top: 2px;
+  }
+
+  
+
+  .h {
+    display: flex;
+    align-items: baseline;
+  }
+
+.merchant {
+    margin-left: 210px;
+}
+
+  input {
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: black;
+  }
+  
+  input:focus {
+    border-color: blue;
+  }
+
+  .btn {
+    display: block;
+    color: #0f1419;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 24px;
+
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 6px solid #cfd9de;
+    border-radius: 60px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
