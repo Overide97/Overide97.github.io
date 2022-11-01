@@ -1,5 +1,8 @@
 * {
   margin: 0;
+  font-family:sans-serif;
+  color: #AACCFF;
+  background-color: #222223;
 }
 
 .header {
@@ -12,7 +15,8 @@
 
 .aboutme {
     text-align: center;
-    background-color:aliceblue;
+    color: #AACCFF;
+    background-color: #222223;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 20px;
@@ -33,7 +37,6 @@ img {
 }
 
 .projects {
-    background-color: lightgreen;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
@@ -84,4 +87,9 @@ a, a:visited {
 
 a {
     text-decoration: none;
+}
+
+.education_header {
+    text-align: center;
+
 }
