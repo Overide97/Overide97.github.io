@@ -76,13 +76,18 @@ img {
 }
 
 .foot {
-    background-color: antiquewhite;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 a, a:visited {
     color: inherit;
+}
+
+a:hover {
+    transition: .5s;
+    color: #ebc944;
+    box-shadow: 0 0 15px #ebc944;
 }
 
 a {
