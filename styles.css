@@ -6,8 +6,6 @@
 }
 
 .header {
-    background-color: black;
-    color: white;
     text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -92,6 +90,7 @@ a:hover {
 
 a {
     text-decoration: none;
+    background-color: #222223;
 }
 
 .education_header {
