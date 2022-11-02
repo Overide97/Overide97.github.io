@@ -1,100 +1,112 @@
 * {
-    font-family:'Times New Roman', Times, serif
+  font-family:'Times New Roman', Times, serif
 }
 
 li {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .headofpage {
-    text-align: center;
+  text-align: center;
 }
 
 .DCS {
-    font-weight:bold;
+  font-weight:bold;
 }
 
 .VDF {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 @media print {
-    h2 {page-break-before: always;}
+  h2 {page-break-before: always;}
 }
 
 table, th, td {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 table {
-    empty-cells: show;
-    margin-left: auto;
-    margin-right: auto;    
+  empty-cells: show;
+  margin-left: auto;
+  margin-right: auto;    
 }
 
 
 .sub {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .dr {
-    display: block;
-    width: 300px;
+  display: block;
+  width: 300px;
 }
 
 .dro {
-    display: flex;
+  display: flex;
 }
 
 
 
-  .v {
-    display: block;
-  }
+.v {
+  display: block;
+}
 
-  .vsub {
-    font-size: 10px;
-    margin-top: 2px;
-  }
+.vsub {
+  font-size: 10px;
+  margin-top: 2px;
+}
 
-  
 
-  .h {
-    display: flex;
-    align-items: baseline;
-  }
+
+.h {
+  display: flex;
+  align-items: baseline;
+}
 
 .merchant {
-    margin-left: 210px;
+  margin-left: 210px;
 }
 
-  input {
-    outline: 0;
-    border-width: 0 0 1px;
-    border-color: black;
-  }
-  
-  input:focus {
-    border-color: blue;
-  }
+input {
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: black;
+}
 
-  .btn {
-    display: block;
-    color: #0f1419;
-    background-color: white;
-    font-weight: bolder;
-    font-size: 24px;
+input:focus {
+  border-color: rgb(173, 24, 24);
+}
 
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
+.btn {
+  display: block;
+  color: #0f1419;
+  background-color: white;
+  font-weight: bolder;
+  font-size: 24px;
 
-    border: 6px solid #cfd9de;
-    border-radius: 60px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+  border: 6px solid #cfd9de;
+  border-radius: 60px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn:active {
+background-color: #0f1419;
+color: white;
+}
+
+.btn:hover {
+transition: .7s;
+border: 6px solid rgb(173, 24, 24);
+color: #0f1419;
+box-shadow: 0 0 15px rgb(173, 24, 24);
 }

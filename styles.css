@@ -1,101 +1,138 @@
 * {
-  margin: 0;
-  font-family:sans-serif;
-/*
- color: #AACCFF;
-  background-color: #222223;
-*/
-}
+    margin: 0;
+    font-family:sans-serif;
+  /*
+   color: #AACCFF;
+    background-color: #222223;
+  */
+  }
+  
+  .header {
+      text-align: center;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      color: #ebc944;
+      background: #222223;
+  }
 
-.header {
-    text-align: center;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
-.aboutme {
+  .header_sub {
     text-align: center;
     color: #AACCFF;
-    background-color: #222223;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+    background: #222223;
+  }
 
-.aboutme-ul {
-    text-align: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-img {
-    width: 15%;
-    border-radius: 60px;
-    border: 4px solid black;
-    
-}
-
-.projects {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.links {
-    list-style: none;
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-}
-
-.moreaboutme {
-    text-align: left;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-    padding-bottom: 400px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.Education {
-    padding-top: 20px;
-    padding-bottom: 100px;
-    padding-left: 10px;
-    padding-right: 10px;
-
-}
-
-.top-header {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: black;
-    color: white;
-}
-
-.foot {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-a, a:visited {
-    color: inherit;
-}
-
-a:hover {
-    transition: .5s;
+  .gold {
     color: #ebc944;
-    box-shadow: 0 0 15px #ebc944;
-}
-
-a {
-    text-decoration: none;
-    background-color: #222223;
-}
-
-.education_header {
     text-align: center;
+  }
 
-}
+  .gold_2 {
+    color: #ebc944;
+    text-align: left;
+  }
+  
+  .aboutme {
+      text-align: center;
+      color: #AACCFF;
+      background-color: #222223;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  
+  .aboutme-ul {
+      text-align: left;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      color: #AACCFF;
+
+  }
+  
+  img {
+      width: 15%;
+      border-radius: 60px;
+      border: 4px solid black;
+      
+  }
+  
+  .projects {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  
+  .links {
+      list-style: none;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+  }
+  
+  .moreaboutme {
+      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 20px;
+      padding-bottom: 400px;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  
+  .Education {
+      padding-top: 20px;
+      padding-bottom: 100px;
+      padding-left: 10px;
+      padding-right: 10px;
+  
+  }
+  
+  .top-header {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-color: black;
+      color: white;
+  }
+  
+  .foot {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background: #222223;
+
+  }
+  
+  a, a:visited {
+      color: inherit;
+  }
+  
+  a:hover {
+      transition: .6s;
+      color: #ebc944;
+      box-shadow: 0 0 15px #ebc944;
+  }
+  
+  a {
+      text-decoration: none;
+  }
+  
+  .education_header {
+      text-align: center;
+  
+  }
+
+  a:focus {
+    color: #ebc944;
+    box-shadow: 0 0 15px #ebc944; 
+    border: #ebc944;
+  }
+
+  .projects_list {
+      color: #AACCFF;
+      background-color: #222223;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+ 
