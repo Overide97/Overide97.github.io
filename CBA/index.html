@@ -24,7 +24,7 @@
                     <p>Thru <input type="text"></p>
                 </div>
             </div>
-          
+            <br>
             <div class="h">
                 <div class="v">
                     <span class="item">LOCATION <input type="text"></span>
@@ -35,7 +35,7 @@
                     <p class="vsub">(FIRST AND LAST)</p>
                 </div>
             </div>
-
+            
             <!--Review this for good form-->
 
             <p>CUSTOMER NAME <input type="text" size="65"></p>
@@ -44,7 +44,7 @@
                 <p>ACCOUNT NUMBER <input type="text"></p>
                 <p>PHONE # <input type="text"></p>
             </div>
-          
+          <br>
             <div class="v">
                 <span>CHECK ONE Visa<input type="checkbox"> ACH <input type="checkbox"> ATM <input type="checkbox"></span>
                 <p class="vsub">(CHECK ONE)</p>
@@ -55,14 +55,14 @@
                 <span>IN PERSON <input type="checkbox"> BY PHONE <input type="checkbox"></span>
                 <p class="vsub">(CHECK ONE)</p>
             </div>
-
+<br>
             <ul>
                 <li>DID THE ITEM OVERDRAW THE ACCOUNT: YES <input type="checkbox"> NO <input type="checkbox"></li>
                 <li>IS THE ITEM ON HOLD: YES <input type="checkbox"> NO <input type="checkbox"></li>
-                <li>BALANCE WHEN LAST ITEM WAS DEBITED FROM ACCOUNT <input type="text"></li>
+                <li><p>BALANCE WHEN ITEM WAS DEBITED FROM ACCOUNT <input type="text"></p></li>
             </ul>
 
-            <p>*************************TO BE COMPLETED BY CUSTOMER SERVICE**************************</p>
+            <p class="to_be_completed">*************************TO BE COMPLETED BY CUSTOMER SERVICE**************************</p>
 
             <ul>
                 <li>DATE RECIEVED BY CUSTOMER SERVICE FROM BRANCHES <input type="text"></li>
@@ -71,41 +71,53 @@
 
             <p>****************************************************************************************</p>
         
-            <p>MAKE COPIES OF STATEMENT SHOWING REFUNDS WERE GIVEN:</p>
+            <p class="underline">MAKE COPIES OF STATEMENT SHOWING REFUNDS WERE GIVEN:</p>
 
 <!--
 Need to study tables more &nbsp; is the invisible character
 -->
+
+<!--&nbsp;-->
             <table>
                 <tr>
-                    <th>DATE REFUNDED</th>
-                    <th>NSF FEES</th>
-                    <th>DAILY FEES</th>
-                    <th>INITIALS</th>
-                    <th>DATE REFUNDED</th>
-                    <th>NSF FEES</th>
-                    <th>DAILY FEES</th>
-                    <th>INITIALS</th>
+                    <td>DATE REFUNDED</td>
+                    <td>NSF FEES</td>
+                    <td>DAILY FEES</td>
+                    <td>INITIALS</td>
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><input type="text" class="table_input"></td>
+                    <td><input type="text" class="table_input"></td>
+                    <td><input type="text" class="table_input"></td>
+                    <td><input type="text" class="table_input"></td>
+                   
                 </tr>
                 <tr>
-                    <td>&nbsp;</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><input type="text" class="table_input"></td>
+                    <td><input type="text" class="table_input"></td>
+                    <td><input type="text" class="table_input"></td>
+                    <td><input type="text" class="table_input"></td>
+                </tr>
+            </table>
+
+            <table>
+                <tr>
+                    <td>DATE REFUNDED</td>
+                    <td>NSF FEES</td>
+                    <td>DAILY FEES</td>
+                    <td>INITIALS</td>
+                </tr>
+                <tr>
+                    <td><input type="text" class="table_input"></td>
+                    <td><input type="text" class="table_input"></td>
+                    <td><input type="text" class="table_input"></td>
+                    <td><input type="text" class="table_input"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" class="table_input"></td>
+                    <td><input type="text" class="table_input"></td>
+                    <td><input type="text" class="table_input"></td>
+                    <td><input type="text" class="table_input"></td>
                 </tr>
             </table>
 <!--
@@ -115,7 +127,7 @@ Need to study tables more &nbsp; is the invisible character
             <p><input type="text" size="215"></p>
             <p><input type="text" size="215"></p>
 
-            <p>(ALL DISPUTES ARE TO BE SENT TO CUSTOMER SERVICE (MAIN BANK)</p>
+            <p class="end_of_page">ALL DISPUTES ARE TO BE SENT TO CUSTOMER SERVICE ''MAIN BANK''</p>
 
         </div>
 
@@ -184,7 +196,7 @@ Need to study tables more &nbsp; is the invisible character
                
             </div>
 
-            <button onclick="addTransaction()" class="btn">Add another transaction</button>
+            <button onclick="addTransaction()" class="btn_transaction">Add another transaction</button>
             <script>
                 function addTransaction() {
                     document.getElementById("add_transaction").innerHTML +=
@@ -211,7 +223,7 @@ Need to study tables more &nbsp; is the invisible character
                 </div>
     
                 <div class="dr">
-                    <li>Paid by Other Means (Proof Required)</li>
+                    <li>It Was Paid by Other Means (Proof Required)</li>
                      <li>Sales Draft Copy Requested</li>
                         <li>Services Not Rendered</li>
                 </div>

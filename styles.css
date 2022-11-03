@@ -6,6 +6,12 @@
     background-color: #222223;
   */
   }
+
+
+
+  .project_link {
+    text-transform: #373D3F;
+  }
   
   .header {
       text-align: center;
@@ -135,4 +141,6 @@
       padding-top: 20px;
       padding-bottom: 20px;
   }
- 
+
+
+ /* #F2F3F
