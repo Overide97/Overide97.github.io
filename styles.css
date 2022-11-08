@@ -23,7 +23,7 @@
 
   .header_sub {
     text-align: center;
-    color: #AACCFF;
+    color: whitesmoke;
     background: #222223;
   }
 
@@ -143,5 +143,8 @@
       padding-bottom: 20px;
   }
 
+  .white{
+    color: whitesmoke;
+  }
 
  /* #F2F3F
